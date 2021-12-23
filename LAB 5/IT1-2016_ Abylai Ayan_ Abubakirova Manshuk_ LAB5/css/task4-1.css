@@ -1,0 +1,19 @@
+#wrapper {
+  width:900px;
+  margin: 0 20%; /* посчитал с помощью пропорции, одщая ширина окна 1500px */
+}
+
+#header {
+  min-height:300px;
+  border: 1px solid #000000;
+}
+
+#content {
+  min-height:500px;
+  border: 1px solid #000000;
+}
+
+#footer {
+  min-height:300px;
+  border: 1px solid #000000;
+}

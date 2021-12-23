@@ -1,0 +1,114 @@
+#wrapper{
+	position: relative;
+	width:600px;
+	height:600px;
+	margin: 100px 450px 0 450px;
+	border-radius:100%;
+	background-color: #4CEE99;
+	z-index: 1;
+}
+#eye1 {
+	width:130px;
+	height:130px;
+	border-radius:100%;
+	background-color:white;
+	position:absolute;
+	top: 15%;
+	left: 18%;
+	z-index: 4;
+}
+#eye2 {
+	width:130px;
+	height:130px;
+	border-radius:100%;
+	background-color:white;
+	position:absolute;
+	top:15%;
+	right: 18%;
+	z-index: 4;
+}
+#nose{
+
+	width:80px;
+	height:80px;
+	background-color:white;
+	position:absolute;
+	top: 50%;
+	left: 42%;
+	z-index: 4;
+}
+#mouth1{
+	width:250px;
+	height:20px;
+	background-color:white;
+	position:absolute;
+	top: 75%;
+	left: 28%;
+	z-index: 4;
+}
+#circleleft{
+	/*border:1px solid black;*/
+	width:130px;
+	height:130px;
+	border-radius:100%;
+	background-color:#4CEE99;
+	position:absolute;
+	top: 13%;
+	left: 18%;
+	z-index: 3;
+}
+#circleright{
+	/*border:1px solid black;*/
+	width:130px;
+	height:130px;
+	border-radius:100%;
+	background-color:#4CEE99;
+	position:absolute;
+	top:13%;
+	right: 18%;
+	z-index: 3;
+}
+#eyebrow1 {
+	border:1px solid black;
+	width:100px;
+	height:100px;
+	border-radius:100%;
+	background-color: black;
+	position:absolute;
+	top:10%;
+	left: 18%;
+	z-index: 2;
+}
+#eyebrow2 {
+	border:1px solid black;
+	width:100px;
+	height:100px;
+	border-radius:100%;
+	background-color: black;
+	position:absolute;
+	top:10%;
+	right: 18%;
+	z-index: 2;
+}
+#blackeye1{
+	border:1px solid black;
+	width:70px;
+	height:70px;
+	border-radius:100%;
+	background-color: black;
+	position:absolute;
+	top:20%;
+	left: 25%;
+	z-index: 6;
+}
+#blackeye2{
+	border:1px solid black;
+	width:70px;
+	height:70px;
+	border-radius:100%;
+	background-color: black;
+	position:absolute;
+	top:20%;
+	right: 25%;
+	z-index: 6;
+}

@@ -1,0 +1,355 @@
+/*          1  Menu           */
+/*          1  Menu           */
+/*          1  Menu           */
+
+#menu1 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-between;
+  background-color: rgb(255, 165, 0);
+  padding: 0px 1%;
+}
+
+#menu1 a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+#menu1 li {
+  background-color: rgb(255, 165, 0);
+  border:1px solid rgb(255, 165, 0);
+  flex-basis: 10%;
+}
+
+#menu1 a:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0);
+  border-color: rgb(255, 165, 0);
+}
+
+
+
+/*           2  Menu          */
+/*           2  Menu          */
+/*           2  Menu          */
+
+#menu2 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-between;
+  background-color: rgb(255, 165, 0);
+  padding: 0px 1%;
+}
+
+#menu2 a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+#menu2 li {
+  background-color: rgb(255, 165, 0);
+  border:1px solid rgb(255, 165, 0);
+  flex-basis: 10%;
+}
+
+#menu2 a:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0);
+  border-color: rgb(255, 165, 0);
+}
+/* To change their potitions  */
+#menu2  li:last-child {
+  order:-1;
+}
+#menu2 li:first-child {
+  order: 4;
+}
+
+
+/*     3  Menu      */
+/*     3  Menu      */
+/*     3  Menu      */
+
+#menu3 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:center;  /*   */
+  background-color: rgb(255, 165, 0);
+  padding: 0px 1%;
+}
+
+#menu3 a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+#menu3 li {
+  background-color: rgb(255, 165, 0);
+  border:1px solid rgb(255, 165, 0);
+  flex-basis: 10%;
+}
+
+#menu3 a:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0);
+  border-color: rgb(255, 165, 0);
+}
+
+
+
+
+
+/*     4  Menu      */
+/*     4  Menu      */
+/*     4  Menu      */
+
+#menu4 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:center;
+  align-items: stretch;  /* то что изменилось , своя высота    */
+  background-color: rgb(255, 165, 0);
+  padding: 0px 1%;
+}
+
+#menu4 a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 15px;
+}
+
+#menu4 li {
+  background-color: rgb(255, 165, 0);
+  border:1px solid rgb(255, 165, 0);
+  flex-basis: 10%;
+}
+
+#menu4 a:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0);
+  border-color: rgb(255, 165, 0);
+}
+
+
+
+
+
+/*     5  Menu      */
+/*     5  Menu      */
+/*     5  Menu      */
+
+#menu5 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:center;
+  align-items: center;  /* то что изменилось , все по центру    */
+  background-color: rgb(255, 165, 0);
+  padding: 0px 1%;
+}
+
+#menu5 a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 15px;
+  height: 100%;
+}
+
+#menu5 li {
+  background-color: rgb(255, 165, 0);
+  border:1px solid rgb(255, 165, 0);
+  flex-basis: 10%;
+}
+
+#menu5 a:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0);
+  border-color: rgb(255, 165, 0);
+}
+
+
+
+
+/*     6  Menu      */
+/*     6  Menu      */
+/*     6  Menu      */
+
+#menu6 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:flex-end; /* то что изменилось, прижать к правому краю  */
+  align-items: center;
+  background-color: rgb(255, 165, 0);
+  padding: 0px 1%;
+}
+
+#menu6 a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 15px;
+  height: 100%;
+}
+
+#menu6 li {
+  background-color: rgb(255, 165, 0);
+  border:1px solid rgb(255, 165, 0);
+  flex-basis: 10%;
+}
+
+#menu6 a:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0);
+  border-color: rgb(255, 165, 0);
+}
+
+
+
+
+
+/*     7  Menu      */
+/*     7  Menu      */
+/*     7  Menu      */
+
+#menu7 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:flex-start; /* left */
+  align-items: center;
+  flex-direction:row-reverse; /* reverse */
+  background-color: rgb(255, 165, 0);
+  padding: 0px 1%;
+}
+
+#menu7 a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 15px;
+  height: 100%;
+}
+
+#menu7 li {
+  background-color: rgb(255, 165, 0);
+  border:1px solid rgb(255, 165, 0);
+  flex-basis: 10%;
+}
+
+#menu7 a:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0);
+  border-color: rgb(255, 165, 0);
+}
+
+
+
+
+/*     8  Menu      */
+/*     8  Menu      */
+/*     8  Menu      */
+
+#menu8 ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:  space-between;
+  flex-flow: row wrap;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 205);
+  padding: 0;
+}
+
+#menu8 a {
+  display: block;
+  color: #FFFFFF;
+}
+
+#menu8 li {
+  background-color: rgb(255, 255, 255);
+  border:1px;
+  border-color: rgb(0, 0, 205);
+  border-style: solid;
+  margin: 1px 1px 15px 1px;
+  flex-basis: 19%;
+  height:120px;
+}
+
+
+@media (min-width:700px){
+
+  #menu8 li {
+    background-color: rgb(255, 255, 255);
+    border:1px;
+    border-color: rgb(0, 0, 205);
+    border-style: solid;
+    margin: 1px 1px 15px 1px;
+    flex-basis: 19%;
+    height:180px;
+  }
+}
+
+@media (min-width:1200px){
+
+  #menu8 li {
+    background-color: rgb(255, 255, 255);
+    border:1px;
+    border-color: rgb(0, 0, 205);
+    border-style: solid;
+    margin: 1px 1px 15px 1px;
+    flex-basis: 19%;
+    height:270px;
+  }
+}
+
+/*     9  Menu      */
+/*     9  Menu      */
+/*     9  Menu      */
+
+#menu9 ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction:column;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 0px;
+  border: 1px solid rgb(255, 165, 0);
+  width: 30%; /*  */
+}
+
+#menu9 a {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: left;
+  padding: 15px 15px;
+}
+
+#menu9 li {
+  background-color: rgb(255, 165, 0);
+  border:1px;
+  border-color: rgb(255, 165, 0);
+  border-style: solid;
+  margin: 1px;
+}
+
+#menu9 a:hover, #menu9 li:hover {
+  background-color: #FFFFFF;
+  color: rgb(255, 165, 0);
+  border-color: #FFFFFF;
+}
+
+
+
+/*  */
